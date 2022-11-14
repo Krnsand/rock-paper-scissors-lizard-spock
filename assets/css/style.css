@@ -73,24 +73,23 @@ p {
 
 footer {
     position: absolute;
+   /* display: flex;
+    align-items: flex-end;*/
     width: 100%;
     left: 0;
     bottom: 0;
     box-sizing: border-box;
-    min-height: 80px;
+    min-height: 25%;
     padding-top: 5px;
     text-align: center;
-    /*color: antiquewhite;*/
     background-color: blueviolet;
 }
 
 #rules {
     font-size: 160%;
-    /*font-family: "Josefin Sans", sans-serif;*/
     letter-spacing: 5px;
     text-align: center;
     padding-top: 1rem;
-    /*color: antiquewhite;*/
 }
 
 .rules-list {
@@ -98,7 +97,7 @@ footer {
     padding-top: 2%;
 }
 
-.class li {
+.class > li {
     display: inline;
     text-decoration: dotted;
 }
