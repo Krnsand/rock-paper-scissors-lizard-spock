@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@600&display=swap');
 
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 body {
     background-color: rgb(42, 49, 47);
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    color: antiquewhite;
 }
 
 #heading {
@@ -14,19 +22,32 @@ body {
 }
 
 .game-area {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+p {
 
 }
 
 .control {
-
+    display: inline-box;
+    margin: 2px;
+    width: 80px;
+    height: 40px;
 }
 
 #messages {
-
+    height: 20px;
 }
 
 .player {
-
+    background-color: lightblue;
+    float: left;
+    width: 45%;
 }
 
 #player-image {
@@ -34,7 +55,18 @@ body {
 }
 
 .computer {
-    
+    background-color: lightseagreen;
+    float: right;
+    width: 45%;
+}
+
+#player-image {
+    width: 75%;
+
+}
+
+#computer-image {
+    width: 75%;
 }
 
 /* Footer with rules */
@@ -48,17 +80,17 @@ footer {
     min-height: 80px;
     padding-top: 5px;
     text-align: center;
-    color: antiquewhite;
+    /*color: antiquewhite;*/
     background-color: blueviolet;
 }
 
 #rules {
     font-size: 160%;
-    font-family: "Josefin Sans", sans-serif;
+    /*font-family: "Josefin Sans", sans-serif;*/
     letter-spacing: 5px;
     text-align: center;
     padding-top: 1rem;
-    color: antiquewhite;
+    /*color: antiquewhite;*/
 }
 
 .rules-list {
