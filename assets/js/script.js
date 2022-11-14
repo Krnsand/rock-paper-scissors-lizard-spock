@@ -38,3 +38,57 @@ function playGame(playerChoice) {
 
     updateScores(result);
 }
+
+if (playerChoice === "rock") {
+    displayRockQuestion(num1, num2);
+} else if (playerChoice === "paper") {
+    displayPaperQuestion(num1, num2);
+} else if (playerChoice === "scissors") {
+    displayScissorsQuestion(num1, num2);
+} else if (playerChoice === "lizard") {
+    displayLizardQuestion(num1, num2);
+} else if (playerChoice === "spock") {
+    displaySpockQuestion(num1, num2);
+} else {
+    alert(`Unknown game type ${gameType}`);
+    throw `Unknown game type ${gameType}, aborting!`;
+}
+
+
+/**
+ * Gets the current score from the DOM and increments it by 1
+ */
+function incrementScore() {
+    let oldScore = parseInt(document.getElementById("player-score").innerText);
+    document.getElementById("player-score").innerText = ++oldScore;
+
+}
+
+/**
+ * Gets the current tally of incorrect answers from the DOM and increments it by 1
+ */
+
+function incrementWrongAnswer() {
+    let oldScore = parseInt(document.getElementById("computer-score").innerText);
+    document.getElementById("computer-score").innerText = ++oldScore;
+}
+
+function displayRockQuestion() {
+
+}
+
+function displayPaperQuestion() {
+
+}
+
+function displayScissorsQuestion() {
+
+}
+
+function displayLizardQuestion() {
+
+}
+
+function displaySpockQuestion() {
+    
+}

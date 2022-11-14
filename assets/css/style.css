@@ -21,16 +21,14 @@ body {
     color: antiquewhite;
 }
 
+/* Game area */
+
 .game-area {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
     text-align: center;
-}
-
-p {
-
 }
 
 .control {
@@ -42,31 +40,32 @@ p {
 
 #messages {
     height: 20px;
+    display: inline;
+}
+
+.scores {
+    color:rgb(42, 49, 47);
 }
 
 .player {
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
     float: left;
     width: 45%;
 }
 
-#player-image {
-
-}
-
 .computer {
-    background-color: lightseagreen;
+    background-color: rgb(255, 255, 255);
     float: right;
     width: 45%;
 }
 
 #player-image {
-    width: 75%;
+    width: 80%;
 
 }
 
 #computer-image {
-    width: 75%;
+    width: 80%;
 }
 
 /* Footer with rules */
