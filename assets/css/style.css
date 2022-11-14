@@ -1,3 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@600&display=swap');
+
 body {
-    background-color: aquamarine;
+    background-color: rgb(42, 49, 47);
+}
+
+#heading {
+    font-size: 210%;
+    font-family: "Abril Fatface", sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 2rem;
+    color: antiquewhite;
+}
+
+/* Footer with rules */
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 80px;
+    padding-top: 5px;
+    text-align: center;
+    color: antiquewhite;
+    background-color: blueviolet;
+}
+
+#rules {
+    font-size: 160%;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 1rem;
+    color: antiquewhite;
+}
+
+.rules-list {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.class li {
+    display: inline;
+    text-decoration: dotted;
 }
