@@ -21,7 +21,7 @@ for (let button of buttons) {
 }
 
 /**
- * The main game function. Accepts one parameter, whick
+ * The main game function. Accepts one parameter, which
  * is the data-choice value of the selected button
  */
 function playGame(playerChoice) {
@@ -39,6 +39,11 @@ function playGame(playerChoice) {
     updateScores(result);
 }
 
+/**
+ * The main game "loop", called when the script is first loaded
+ * and after the user's answer has been processed
+ */
+
 if (playerChoice === "rock") {
     displayRockQuestion(num1, num2);
 } else if (playerChoice === "paper") {
@@ -53,6 +58,28 @@ if (playerChoice === "rock") {
     alert(`Unknown game type ${gameType}`);
     throw `Unknown game type ${gameType}, aborting!`;
 }
+
+/*const whatBeatsWhat = {
+    'scissors': 'paper', 'lizard'
+    'paper': 'rock', 'spock'
+    'rock': 'scissors', 'lizard'
+    'lizard': 'paper', 'spock'
+    'spock': 'scissors', 'rock'
+}
+
+// Rock paper scissor only
+function checkIfPlayerWins(playerChoice, computerChoice){
+    if (playerChoice == computerChoice){
+        return 'draw'
+    }
+
+    if (whatBeatsWhat[playerChoice] == computerChoice) {
+        return 'win'
+    }
+    else {
+        return 'lose'
+    }
+}*/
 
 
 /**
@@ -90,5 +117,5 @@ function displayLizardQuestion() {
 }
 
 function displaySpockQuestion() {
-    
+
 }
