@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     for (let button of buttons) {
         button.addEventListener("click", function () {
             if (this.getAttribute("data-choice") === "rock") {
-                alert("You clicked rock!")
+                checkWinner();
             } else {
                 let playerChoice = this.getAttribute("data-choice");
                 runGame(playerChoice);
@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function() {
         })
     }
 
-    runGame("rpsls")
 });
 
 /**
