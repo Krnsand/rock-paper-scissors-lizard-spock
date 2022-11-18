@@ -71,32 +71,41 @@ body {
 /* Footer with rules */
 
 footer {
-    position: absolute;
-   /* display: flex;
-    align-items: flex-end;*/
+    position: fixed;
+    display: flex;
     width: 100%;
     left: 0;
     bottom: 0;
     box-sizing: border-box;
     min-height: 25%;
     padding-top: 5px;
-    text-align: center;
     background-color: blueviolet;
 }
 
 #rules {
     font-size: 160%;
-    letter-spacing: 5px;
+    /*letter-spacing: 5px;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 1rem;*/
+    display: grid;
+    text-align: center;
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+.rules-row {
+    
 }
 
 .rules-list {
-    text-align: center;
     padding-top: 2%;
+    /*align-items: flex-end;*/
+    webkit-column-count: 2;
+    moz-column-count: 2;
+    column-count: 2;
 }
 
 .class > li {
     display: inline;
     text-decoration: dotted;
+    flex-direction: column;
 }
