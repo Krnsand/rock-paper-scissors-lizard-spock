@@ -48,8 +48,30 @@ function runGame(playerChoice) {
 }
 
 function checkWinner(playerChoice, computerChoice) {
+    if (playerChoice == 'scissors'){
+        if (computerChoice == 'scissors'){
+            return 'draw'
+        }
+        else if (computerChoice =='rock'){
+            return 'lose'
+        }
+        else if (computerChoice == 'paper'){
+            return 'win'
+        }
+        else if (computerChoice == 'lizard'){
+            return 'win'
+        }
+        else if (computerChoice == 'spock'){
+            return 'lose'
+        }
+    } 
+    else if (true){
 
-    const whatBeatsWhat = {
+    }
+
+}
+
+    /*const whatBeatsWhat = {
         'scissors': 'paper', 'lizard'
         'paper': 'rock', 'spock'
         'rock': 'scissors', 'lizard'
@@ -65,5 +87,4 @@ function checkWinner(playerChoice, computerChoice) {
         }
         else {
             return 'lose'
-        }
-    }
+        }*/
