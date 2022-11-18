@@ -45,6 +45,7 @@ body {
 
 .scores {
     color:rgb(42, 49, 47);
+    font-size: 80%;
 }
 
 .player {
@@ -77,34 +78,29 @@ footer {
     left: 0;
     bottom: 0;
     box-sizing: border-box;
-    /*min-height: 25%;*/
     padding-top: 5px;
     background-color: blueviolet;
 }
 
 #rules {
     font-size: 160%;
-    /*letter-spacing: 5px;
-    text-align: center;
-    padding-top: 1rem;*/
     display: grid;
     text-align: center;
-    /*margin: 2rem 2rem 1rem 2rem;*/
+    margin: 1rem auto 0 auto;
 }
 
 .rules-list {
-    /*padding-top: 2%;
-    align-items: flex-end;*/
-    webkit-column-count: 2;
-    moz-column-count: 2;
+    margin: 0.5rem auto 1rem auto;
+    /*webkit-column-count: 2;
+    moz-column-count: 2;*/
     column-count: 2;
+    font-size: 80%;
+    align-content: center;
 }
 
 .class > li {
     display: inline;
     text-decoration: dotted;
     flex-direction: column;
-    font-size: 50%;
-    align-items: center;
-    justify-content: space-evenly;
+    /*align-items: center;*/
 }

@@ -67,7 +67,6 @@ function checkWinner(playerChoice, computerChoice) {
     else if (true){
 
     }
-
 }
 
     /*const whatBeatsWhat = {
