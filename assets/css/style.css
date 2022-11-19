@@ -38,35 +38,33 @@ body {
     height: 40px;
 }
 
-#messages {
+.messages {
     height: 20px;
     display: inline;
 }
 
 .scores {
     color:rgb(42, 49, 47);
-    font-size: 80%;
+    font-size: 90%;
 }
 
 .player {
     background-color: rgb(255, 255, 255);
     float: left;
     width: 45%;
+    margin-top: 1rem;
 }
 
 .computer {
     background-color: rgb(255, 255, 255);
     float: right;
     width: 45%;
+    margin-top: 1rem;
 }
 
-#player-image {
+#player-image, #computer-image {
     width: 75%;
 
-}
-
-#computer-image {
-    width: 75%;
 }
 
 /* Footer with rules */
@@ -83,7 +81,7 @@ footer {
 }
 
 #rules {
-    font-size: 160%;
+    font-size: 180%;
     display: grid;
     text-align: center;
     margin: 1rem auto 0 auto;
@@ -94,7 +92,7 @@ footer {
     /*webkit-column-count: 2;
     moz-column-count: 2;*/
     column-count: 2;
-    font-size: 80%;
+    font-size: 90%;
     align-content: center;
 }
 
@@ -102,5 +100,4 @@ footer {
     display: inline;
     text-decoration: dotted;
     flex-direction: column;
-    /*align-items: center;*/
 }

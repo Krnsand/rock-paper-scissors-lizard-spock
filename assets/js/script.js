@@ -55,12 +55,12 @@ function checkWinner(playerChoice, computerChoice) {
             return 'lose'
         }
         else if (computerChoice == 'paper'){
-            return 'win'
+            incrementScore()
         }
         else if (computerChoice == 'lizard'){
-            return 'win'
-        }
-        else if (computerChoice == 'spock'){
+            incrementScore()
+
+        } else if (computerChoice == 'spock'){
             return 'lose'
         }
     } 
@@ -69,7 +69,18 @@ function checkWinner(playerChoice, computerChoice) {
     }
 }
 
-    /*const whatBeatsWhat = {
+/**
+ * Get the current score from the DOM and increment i by 1
+ */
+function incrementScore() {
+    let updateScores = parseInt(document.getElementsByClassName("scores").innerText);
+    document.getElementsByClassName("scores").innerText = ++updateScores;
+}
+
+    
+/*function checkWinner(playerChoice, computerChoice) {
+
+    let whatBeatsWhat = {
         'scissors': 'paper', 'lizard'
         'paper': 'rock', 'spock'
         'rock': 'scissors', 'lizard'
@@ -85,4 +96,6 @@ function checkWinner(playerChoice, computerChoice) {
         }
         else {
             return 'lose'
-        }*/
+        }
+    }
+*/
