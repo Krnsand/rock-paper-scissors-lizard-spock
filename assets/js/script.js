@@ -75,12 +75,18 @@ function runGame(playerChoice) {
     }
 }
 
+/**
+ * Updates the HTML without having to call it in multiple places
+ */
 function updateHTML() {
     movesLeftElement.innerText = movesLeft
     playerScoreElement.innerText = playerScore
     computerScoreElement.innerText = computerScore
 }
-    
+
+/**
+ * Main game code, checks what beats what
+ */
 function checkWinner(playerChoice, computerChoice) {
 
     let whatBeatsWhat = {
@@ -102,6 +108,9 @@ function checkWinner(playerChoice, computerChoice) {
         }
     };
 
+/**
+ * Resets game with the press of the reset button
+ */
 function resetGame() {
     movesLeft = 10
     playerScore = 0
@@ -109,4 +118,4 @@ function resetGame() {
     updateHTML()
 
     messages.innerText = ""
-    }
+}
