@@ -36,11 +36,13 @@ body {
     margin: 2px;
     width: 80px;
     height: 40px;
+    color: antiquewhite;
+    background-color: rgb(40, 121, 132);
 }
 
 .messages {
-    height: 20px;
-    display: inline;
+    margin-top: 20px;
+	font-size: 1.2rem;
 }
 
 .scores {
@@ -76,8 +78,7 @@ footer {
     left: 0;
     bottom: 0;
     box-sizing: border-box;
-    padding-top: 5px;
-    background-color: blueviolet;
+    background-color: rgb(40, 121, 132);
 }
 
 #rules {
@@ -88,16 +89,16 @@ footer {
 }
 
 .rules-list {
+    /*display: flex;*/
     margin: 0.5rem auto 1rem auto;
     /*webkit-column-count: 2;
     moz-column-count: 2;*/
     column-count: 2;
     font-size: 90%;
-    align-content: center;
+    justify-content: space-around;
 }
 
 .class > li {
     display: inline;
     text-decoration: dotted;
-    flex-direction: column;
 }
