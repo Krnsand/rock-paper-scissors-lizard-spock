@@ -2,7 +2,7 @@
 
 This is the classic game of Rock, paper, scissors but with a fun twist! Rock, Paper, Scissors, Lizard, Spock is the version of that game that the characters from The Big Bang Theory plays. While the old rules still applies, there are two new playable options that take the game to a new level! Click the link below to try it yourself!
 
-![Responsive Mockup](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/am_i_responsive.png)
+![Responsive Mockup](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/am_i_responsive.png)
 
 [Click to View Live Website](https://krnsand.github.io/rock-paper-scissors-lizard-spock/)
 
@@ -14,52 +14,45 @@ I wanted my game to be easy to play and to understand, that is why the rules are
 
 ### Existing Features
 
-- __Navigation Bar__
+- __Header__
 
-  - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home, Care Station and Newsletter sign up page and is identical on each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The header makes it clear what game one is playing if one waas to forget anytime during the game. 
 
-![Nav Bar](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/plant_care_nav.png)
+![Header](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/header.png)
 
-- __The Home page__
+- __Moves Left__
 
-  - The home page includes a photograph relevant to the webpage with text on the side to make it clear to the user what page of the site they are on.  
-  - This section introduces the user to what types of plants they will be able to read about on this website.
+  - This function shows the player how many moves one has left during the game as it counts down with every click to finaly stop at 0.  
+  - It can be fun for the player to see how many moves makes up one game so that it does not come as a surprise when the game is over.
 
-![Home Page](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/plant_care_header.png)
+![Moves Left](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/moves_left.png)
 
-- __Featured Plants Section__
+- __The Controls__
 
-  - The featured plants section will allow the user to see images of the types of plants that will be covered on this website. 
-  - The user will get a quick overview of the certain types of plants as well as clickable links on the images to take them to their specific care section on another page.
+  - Here the player can see what options one can choose from to play. 
+  - Underneath the player options one will find the "reset button" that resets the game after it is over. It will reset the game wherever in the game one might find themselves in, but what is the fun in that?
 
-![Featured Plants](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/featured_plants.png)
+![The Controls](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/controls.png)
 
-- __The Footer__ 
+- __The Game Area__ 
 
-  - The footer section includes links to the relevant social media sites for Plants Care. The links will open to a new tab to allow easy navigation for the user.
-  - The footer is valuable to the user as it encourages them to keep connected via social media.
+  - In the game area one can see an image of the option one chooses to play. This creates an interactive experience which can enhance the user experience.
+  - Here one can also se the scores being counted at the top of each image.
 
-![Footer](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/footer.png)
+![Game Area](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/game_area.png)
 
-- __Care Station__
+- __Who Won__
 
-  - The care station will show the user the differents plants again with images in a clean and easy to read layout. 
-  - This section is valuable to the user as it is here they will actually get to learn what type of care the specific plants require to thrive the most. 
+  - Here the player gets a message saying who won the game. 
+  - It shows up right underneath the reset button which makes it easy to restart and play again. 
 
-![Care Station](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/care_station.png)
+![Who Won](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/who_won.png)
 
-- __The Sign Up Page__
+- __The Footer__
 
-  - This page will allow the user to get signed up to the Newsletter the website offers in order to get regular tips and tricks regarding their plants as well as inspiration for what to do with their plants. For example, how to decorate a room with plants or what type of plants can work well in a darker corner of the room. The user will be able to choose if they want a newsletter to their inbox once a week or once a month. The user will be asked to submit their full name and email address. 
+  - In the footer the player can read the rules of the game. As there are many more than in the classic rock, paper, scissors game, the rules are visable at all times during the game. 
 
-![Sign Up](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/newsletter.png)
-
-__The Success page__
-
-- The user will arrive at this page if they sign up to the newsletter, after filling out all the required fields. It is good user experience when they get a result after filling out a form and clicking a button.
-
-![Sign Up](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/success.png)
+![The Footer](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/rules.png)
 
 ### Features Left to Implement
 
