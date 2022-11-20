@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@600&display=swap');
 
+::-webkit-scrollbar {
+    width: 0;
+}
+
+::-webkit-scrollbar-track {
+    background: hsl(183, 53%, 34%);
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(183, 80%, 34%);
+    border-radius: 100vw;
+}
+
+@supports (scrollbar-color: red blue;) {
+    * {
+        scrollbar-color: hsl(183, 53%, 34%) hsl(183, 80%, 34%);
+        scrollbar-width: thin;
+    }
+}
+
 html {
     min-height: 100%;
     position: relative;
@@ -54,6 +76,7 @@ body {
 .scores {
     color: rgb(42, 49, 47);
     font-size: 90%;
+    margin-bottom: 0;
 }
 
 .player {
@@ -120,7 +143,8 @@ footer {
         margin: 0;
     }
 
-    .game-area {
+    #game-scroll {
         overflow: scroll;
+        overflow-x: hidden;
     }
 }
