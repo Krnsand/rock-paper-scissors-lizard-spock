@@ -24,7 +24,7 @@
 
 html {
     min-height: 100%;
-    position: relative;
+    /*position: relative;*/
 }
 
 body {
@@ -96,7 +96,6 @@ body {
 #player-image,
 #computer-image {
     width: 75%;
-
 }
 
 /* Footer with rules */
@@ -146,5 +145,6 @@ footer {
     #game-scroll {
         overflow: scroll;
         overflow-x: hidden;
+        padding-bottom: 20%;
     }
 }

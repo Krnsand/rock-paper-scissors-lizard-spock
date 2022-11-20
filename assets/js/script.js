@@ -20,14 +20,14 @@
      for (let button of buttons) {
          button.addEventListener("click", function () {
              if (this.getAttribute("id") == "reset") {
-                 resetGame()
+                 resetGame();
 
              } else {
 
                  let playerChoice = this.getAttribute("data-choice");
                  runGame(playerChoice);
              }
-         })
+         });
      }
  });
 
@@ -37,7 +37,7 @@
   */
  function runGame(playerChoice) {
      if (movesLeft == 0) {
-         return
+         return;
      }
 
      playerImage.src = `assets/images/${choices[playerChoice]}.png`;
@@ -51,26 +51,26 @@
      let result = checkWinner(choices[computerChoice], choices[playerChoice]);
 
      if (result == 'win') {
-         playerScore += 1
+         playerScore += 1;
 
      } else if (result == 'lose') {
-         computerScore += 1
+         computerScore += 1;
 
      }
 
-     movesLeft -= 1
-     updateHTML()
+     movesLeft -= 1;
+     updateHTML();
 
      if (movesLeft == 0) {
 
          if (playerScore > computerScore) {
-             messages.innerText = "You Win!!"
+             messages.innerText = "You Win!!";
 
          } else if (computerScore > playerScore) {
-             messages.innerText = "Computer wins..."
+             messages.innerText = "Computer wins...";
 
          } else {
-             messages.innerText = "Draw"
+             messages.innerText = "Draw";
          }
      }
  }
@@ -79,9 +79,9 @@
   * Updates the HTML without having to call it in multiple places
   */
  function updateHTML() {
-     movesLeftElement.innerText = movesLeft
-     playerScoreElement.innerText = playerScore
-     computerScoreElement.innerText = computerScore
+     movesLeftElement.innerText = movesLeft;
+     playerScoreElement.innerText = playerScore;
+     computerScoreElement.innerText = computerScore;
  }
 
  /**
@@ -95,29 +95,30 @@
          'rock': ['scissors', 'lizard'],
          'lizard': ['paper', 'spock'],
          'spock': ['scissors', 'rock']
-     }
+     };
+   
      if (playerChoice == computerChoice) {
-         return 'draw'
+         return 'draw';
      }
 
      if (whatBeatsWhat[playerChoice].includes(computerChoice)) {
-         return 'win'
+         return 'win';
      } else {
-         return 'lose'
+         return 'lose';
      }
- };
+ }
 
  /**
   * Resets game with the press of the reset button
   */
  function resetGame() {
-     movesLeft = 10
-     playerScore = 0
-     computerScore = 0
-     updateHTML()
+     movesLeft = 10;
+     playerScore = 0;
+     computerScore = 0;
+     updateHTML();
 
      playerImage.src = `assets/images/rpsls-left.png`;
      computerImage.src = `assets/images/rpsls-right.png`;
 
-     messages.innerText = ""
+     messages.innerText = "";
  }
