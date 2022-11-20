@@ -54,7 +54,6 @@ body {
 }
 
 .control {
-    /*display: inline-box;*/
     margin: 2px;
     width: 80px;
     height: 40px;
@@ -63,7 +62,6 @@ body {
 }
 
 #reset {
-    /*display: inline-box;*/
     color: antiquewhite;
     background-color: rgb(40, 121, 132);
 }
