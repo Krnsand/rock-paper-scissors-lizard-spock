@@ -8,59 +8,60 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 </head>
 
 <body>
     <div id="game-scroll">
-    <header>
-        <h1 id="heading">Rock, Paper, Scissors, Lizard, Spock</h1>
-    </header>
+        <header>
+            <h1 id="heading">Rock, Paper, Scissors, Lizard, Spock</h1>
+        </header>
 
-    <section class="game-area">
-        <div>
-            <div class="movesleft">Moves Left: <span id="moves">10</span> </div>
+        <section class="game-area">
+            <div>
+                <div class="movesleft">Moves Left: <span id="moves">10</span> </div>
 
-            <p>Choose your fighter:</p>
+                <p>Choose your fighter:</p>
 
-            <button aria-label="Rock" data-choice="0" class="control">Rock</button>
-            <button aria-label="Paper" data-choice="1" class="control">Paper</button>
-            <button aria-label="Scissors" data-choice="2" class="control">Scissors</button>
-            <button aria-label="Lizard" data-choice="3" class="control">Lizard</button>
-            <button aria-label="Spock" data-choice="4" class="control">Spock</button>
-        </div>
-        <button id="reset">Reset</button>
+                <button aria-label="Rock" data-choice="0" class="control">Rock</button>
+                <button aria-label="Paper" data-choice="1" class="control">Paper</button>
+                <button aria-label="Scissors" data-choice="2" class="control">Scissors</button>
+                <button aria-label="Lizard" data-choice="3" class="control">Lizard</button>
+                <button aria-label="Spock" data-choice="4" class="control">Spock</button>
+            </div>
+            <button id="reset">Reset</button>
 
-        <div class="messages" id="messages"></div>
-        <div class="player">
-            <h3 class="scores">Your score: <span id="player-score">0</span></h3>
-            <img id="player-image" src="assets/images/rpsls-left.png" alt="Rock, Paper, Scissors, Lizard, Spock">
-        </div>
-        <div class="computer">
-            <h3 class="scores">Computer score: <span id="computer-score">0</span></h3>
-            <img id="computer-image" src="assets/images/rpsls-right.png" alt="Rock, Paper, Scissors, Lizard, Spock">
-        </div>
-    </section>
+            <div class="messages" id="messages"></div>
+            <div class="player">
+                <h3 class="scores">Your score: <span id="player-score">0</span></h3>
+                <img id="player-image" src="assets/images/rpsls-left.png" alt="Rock, Paper, Scissors, Lizard, Spock">
+            </div>
+            <div class="computer">
+                <h3 class="scores">Computer score: <span id="computer-score">0</span></h3>
+                <img id="computer-image" src="assets/images/rpsls-right.png" alt="Rock, Paper, Scissors, Lizard, Spock">
+            </div>
+        </section>
 
-    <footer>
-        <h2 id="rules">Here are the rules!</h2>
-        <div class="rules-list">
-            <ul>
-                <li>Scissors cuts Paper</li>
-                <li>Paper covers Rock</li>
-                <li>Rock crushes Lizard</li>
-                <li>Lizard poisons Spock</li>
-                <li>Spock smashes Scissors</li>
-            </ul>
-            <ul>
-                <li>Scissors decapitates Lizard</li>
-                <li>Lizard eats Paper</li>
-                <li>Paper disproves Spock</li>
-                <li>Spock vaporizes Rock</li>
-                <li>(and as it always has) Rock crushes Scissors</li>
-            </ul>
-        </div>
-    </footer>
-</div>
+        <footer>
+            <h2 id="rules">Here are the rules!</h2>
+            <div class="rules-list">
+                <ul>
+                    <li>Scissors cuts Paper</li>
+                    <li>Paper covers Rock</li>
+                    <li>Rock crushes Lizard</li>
+                    <li>Lizard poisons Spock</li>
+                    <li>Spock smashes Scissors</li>
+                </ul>
+                <ul>
+                    <li>Scissors decapitates Lizard</li>
+                    <li>Lizard eats Paper</li>
+                    <li>Paper disproves Spock</li>
+                    <li>Spock vaporizes Rock</li>
+                    <li>(and as it always has) Rock crushes Scissors</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
     <script src="assets/js/script.js"></script>
 </body>
 

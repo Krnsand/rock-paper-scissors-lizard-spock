@@ -1,10 +1,10 @@
 # Rock, Paper, Scissors, Lizard, Spock
 
-This is the classic game of Rock, paper, scissors but with a fun twist! Rock, Paper, Scissors, Lizard, Spock is the version of that game that the characters from The Big Bang Theory plays. While the old rules applies, the lizard and Spock 
+This is the classic game of Rock, paper, scissors but with a fun twist! Rock, Paper, Scissors, Lizard, Spock is the version of that game that the characters from The Big Bang Theory plays. While the old rules still applies, there are two new playable options that take the game to a new level! Click the link below to try it yourself!
 
 ![Responsive Mockup](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/am_i_responsive.png)
 
-[Click to View Live Website](https://krnsand.github.io/portfolio1_plant_care/index.html)
+[Click to View Live Website](https://krnsand.github.io/rock-paper-scissors-lizard-spock/)
 
 --- 
 

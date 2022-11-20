@@ -119,7 +119,7 @@ footer {
 
 .rules-list {
     display: flex;
-    margin: 0.5rem auto 1rem auto;
+    margin: 0.5rem auto;
     /*webkit-column-count: 2;
     moz-column-count: 2;*/
     column-count: 2;
@@ -139,12 +139,16 @@ footer {
         padding-bottom: 200px;
     }
 
-   /* .game-area {
-        width: 65%;
-    }*/
-
     footer {
         max-height: 30%;
+    }
+
+    #rules {
+        font-size: 140%;
+    }
+
+    .rules-list {
+        font-size: 70%;
     }
 }
 
@@ -163,6 +167,8 @@ footer {
         overflow-x: hidden;
         padding-bottom: 200px;
     }
+
+
 }
 
 @media (max-width: 280px) {
