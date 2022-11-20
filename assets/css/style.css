@@ -132,9 +132,21 @@ footer {
     text-decoration: dotted;
 }
 
+@media (max-width: 1280px) {
+    #game-scroll {
+        overflow: scroll;
+        overflow-x: hidden;
+        padding-bottom: 200px;
+    }
+
+   /* .game-area {
+        width: 65%;
+    }*/
+}
+
 @media (max-width: 500px) {
     footer {
-        max-height: 200px;
+        max-height: 150px;
     }
 
     .rules-list {
@@ -146,5 +158,20 @@ footer {
         overflow: scroll;
         overflow-x: hidden;
         padding-bottom: 200px;
+    }
+}
+
+@media (max-width: 280px) {
+    #heading {
+        margin: 0.5rem;
+    }
+
+    .control {
+        width: 60px;
+        height: 30px;
+    }
+
+    .scores {
+        font-size: 70%;
     }
 }
