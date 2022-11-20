@@ -10,9 +10,7 @@ This is the classic game of Rock, paper, scissors but with a fun twist! Rock, Pa
 
 ## Features 
 
-I wanted my website to be easy to navigate with clear and visible features that would make the user experience into a good one to encourage people to return to it. 
-
-My website is for anyone wanting to learn more about how to care for their plants, wether they are beginners just trying to keep their plants alive, or more seasoned hobbyists who are looking for more specific tips regarding a certain type of plant.
+I wanted my game to be easy to play and to understand, that is why the rules are posted at the bottom of the page at all times so that one can easily check to see which option does what.
 
 ### Existing Features
 
