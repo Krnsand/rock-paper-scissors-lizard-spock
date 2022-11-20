@@ -15,16 +15,16 @@
     border-radius: 100vw;
 }
 
-@supports (scrollbar-color: red blue;) {
+/*@supports (scrollbar-color: red blue;) {
     * {
         scrollbar-color: hsl(183, 53%, 34%) hsl(183, 80%, 34%);
         scrollbar-width: thin;
     }
-}
+}*/
 
 html {
     min-height: 100%;
-    /*position: relative;*/
+    position: relative;
 }
 
 body {
@@ -54,7 +54,7 @@ body {
 }
 
 .control {
-    display: inline-box;
+    /*display: inline-box;*/
     margin: 2px;
     width: 80px;
     height: 40px;
@@ -63,7 +63,7 @@ body {
 }
 
 #reset {
-    display: inline-box;
+    /*display: inline-box;*/
     color: antiquewhite;
     background-color: rgb(40, 121, 132);
 }
@@ -95,7 +95,7 @@ body {
 
 #player-image,
 #computer-image {
-    width: 75%;
+    width: 70%;
 }
 
 /* Footer with rules */
@@ -119,15 +119,19 @@ footer {
 
 .rules-list {
     display: flex;
-    margin: 0.5rem auto;
+    margin: 0 auto;
     /*webkit-column-count: 2;
     moz-column-count: 2;*/
     column-count: 2;
     font-size: 90%;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.class>li {
+li {
+    margin-top: 5px;
+  }
+
+.class > li {
     display: inline;
     text-decoration: dotted;
 }
@@ -177,11 +181,19 @@ footer {
     }
 
     .control {
-        width: 60px;
+        width: 65px;
         height: 30px;
     }
 
     .scores {
         font-size: 70%;
+    }
+
+    #rules {
+        font-size: 100%;
+    }
+
+    .rules-list {
+        font-size: 50%;
     }
 }
