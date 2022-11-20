@@ -1,108 +1,207 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock, Paper, Scissors, Lizard, Spock
 
-Welcome Krnsand,
+This is the classic game of Rock, paper, scissors but with a fun twist! Rock, Paper, Scissors, Lizard, Spock is the version of that game that the characters from The Big Bang Theory plays. While the old rules applies, the lizard and Spock 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive Mockup](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/am_i_responsive.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+[Click to View Live Website](https://krnsand.github.io/portfolio1_plant_care/index.html)
 
-## Gitpod Reminders
+--- 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features 
 
-`python3 -m http.server`
+I wanted my website to be easy to navigate with clear and visible features that would make the user experience into a good one to encourage people to return to it. 
 
-A blue button should appear to click: _Make Public_,
+My website is for anyone wanting to learn more about how to care for their plants, wether they are beginners just trying to keep their plants alive, or more seasoned hobbyists who are looking for more specific tips regarding a certain type of plant.
 
-Another blue button should appear to click: _Open Browser_.
+### Existing Features
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __Navigation Bar__
 
-A blue button should appear to click: _Make Public_,
+  - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home, Care Station and Newsletter sign up page and is identical on each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-Another blue button should appear to click: _Open Browser_.
+![Nav Bar](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/plant_care_nav.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __The Home page__
 
-To log into the Heroku toolbelt CLI:
+  - The home page includes a photograph relevant to the webpage with text on the side to make it clear to the user what page of the site they are on.  
+  - This section introduces the user to what types of plants they will be able to read about on this website.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Home Page](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/plant_care_header.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __Featured Plants Section__
 
-------
+  - The featured plants section will allow the user to see images of the types of plants that will be covered on this website. 
+  - The user will get a quick overview of the certain types of plants as well as clickable links on the images to take them to their specific care section on another page.
 
-## Release History
+![Featured Plants](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/featured_plants.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- __The Footer__ 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  - The footer section includes links to the relevant social media sites for Plants Care. The links will open to a new tab to allow easy navigation for the user.
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Footer](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/footer.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- __Care Station__
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - The care station will show the user the differents plants again with images in a clean and easy to read layout. 
+  - This section is valuable to the user as it is here they will actually get to learn what type of care the specific plants require to thrive the most. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Care Station](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/care_station.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- __The Sign Up Page__
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+  - This page will allow the user to get signed up to the Newsletter the website offers in order to get regular tips and tricks regarding their plants as well as inspiration for what to do with their plants. For example, how to decorate a room with plants or what type of plants can work well in a darker corner of the room. The user will be able to choose if they want a newsletter to their inbox once a week or once a month. The user will be asked to submit their full name and email address. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Sign Up](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/newsletter.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+__The Success page__
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- The user will arrive at this page if they sign up to the newsletter, after filling out all the required fields. It is good user experience when they get a result after filling out a form and clicking a button.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Sign Up](https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/success.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Features Left to Implement
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- I would like to add more plants in the future as well as video tutourials on different plant related things.
+- I would like to go more in depth on some parts of the care as some details require more work and could use more detailed pictures.
 
 ---
 
-Happy coding!
+## Testing 
+
+I have tested my code throughout the project as I wanted to check regularly that I was not making mistakes. I have run my HTML through:
+
+- The W3C Markup Validation Service: 
+
+  <details><summary>Home</summary>
+  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/index_check.png">
+  </details>
+  <details><summary>Care Station</summary>
+  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/carestation_check.png">
+  </details>
+  <details><summary>Newsletter</summary>
+  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/newsletter_check.png">
+  </details>
+  <details><summary>Success</summary>
+  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/success_check.png">
+  </details>
+
+And I have run my CSS through: 
+
+- The W3C CSS Validation Service:
+
+  <details><summary>CSS</summary>
+  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/style.css_check.png">
+  </details>
+
+- I have successfully tested my website on Google Chrome, Firefox, Microsoft Edge, Safari and Samsung Internet Browser.
+- I have used Google Chrome Developer Tools through out the creation of my project to test layouts and responsivness as I progressed.
+- I have used Google Chrome Developer Tools to test on following devices:
+  - iPhone SE
+  - iPhone XR
+  - iPhone 12 PRO
+  - Pixel 5
+  - Samsung Galaxy S8+
+  - Samsung Galaxy S20 Ultra
+  - iPad Air
+  - iPad Mini
+  - Surface Pro 7
+  - Surface Duo
+  - Galaxy Fold
+  - Samsung Galaxy A51/71
+  - Nest Hub
+  - Nest Hub Max
+
+I tested my deployed website with Lighthouse and got the following results on each page:
+
+<details><summary>Home</summary>
+  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/index_lighthouse.png">
+  </details>
+  <details><summary>Care Station</summary>
+  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/carestation_lighthouse.png">
+  </details>
+  <details><summary>Newsletter</summary>
+  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/newsletter_lighthouse.png">
+  </details>
+  <details><summary>Success</summary>
+  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/success_lighthouse.png">
+  </details>
+
+I believe my performance score was effected by the sizes of my images. I will look into how to better the performance score in the future.
+
+### Unfixed Bugs
+
+- A bug I noticed was that sometimes, after having had Google Chrome Developer Tools open for a while, the website looked like this when developer Tools was closed:
+
+<details><summary>Bug image</summary>
+<img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/bug.png">
+</details>
+<details><summary>Bug image</summary>
+<img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/bug1.png">
+</details>
+
+It was as if DevTools was still open and set to a certain device screen-size even after it had been closed. If I went to another tab and then returned to my website, the layout had fixed itself, always. I don't understand it and I don't know what to do about it. I will look into it in the future. 
+
+- Another bug (or an interesting special feature perhaps) I found was that some of my style to the Home page did not show up as intended on my own phone. The reason being I have it on "dark mode". Personally I don't mind this "bug" as it doesn't make anything hard to read or messes with the layout or anything else. It just doesn't look as intended. I will look into why it does this in the future, but for now I am enjoying the special effects.
+
+<details><summary>Intended</summary>
+<img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/intended.jpg">
+</details>
+<details><summary>Dark Mode</summary>
+<img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/dark_mode.jpg">
+</details>
+
+---
+
+## Deployment
+
+- My website was deployed to GitHub pages. The following steps were used: 
+  - In the Github repository of the project find and click the <em>settings</em> symbol  
+  - On the left hand side there is a menu, find and click <em>Pages</em>
+  - Choose the <em>main</em> branch from the <em>none</em> drop down menu and click save
+  - The link to the website needs a couple of minutes to load, then refresh the page and the link will show up at the top of the <em>Pages</em> section with the text "Your site is live at https://krnsand.github.io/portfolio1_plant_care/" 
+
+---
+
+## Credits 
+
+### Content 
+
+- I used code snippets from the Love Running project on: 
+   - the footer
+   - the sign up form
+
+- Most of the infomation on this page has been gathered by me over the years as a plant enthusiast from trial and (many) errors as well as from various facebook groups. I used: 
+
+    - [Greenery:Unlimited](https://greeneryunlimited.co/blogs/plant-care/monstera-deliciosa-care) 
+    - [Potted Pixie](https://pottedpixie.com/monstera-albo-care/)
+    - [The Spruce](https://www.thespruce.com/grow-coleus-plants-indoors-1902746)
+
+  to complement my information as well
+
+- I used [Font Awesome](https://fontawesome.com/) for the footer icons as well as the leaf in my sign up form
+- I used [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-create-icon-hover-effect-using-css/) to add more styling to the footer icons. I copied the code to the relevant icons on my page
+- I used [Flexbox Froggy](https://flexboxfroggy.com/) to better understand flex
+ 
+### Media
+
+- I used [Pexels](https://www.pexels.com/sv-se/) and [Pixabay](https://pixabay.com/) for most of my images
+- I used [Adobe Express](https://www.adobe.com/express/feature/image/resize) to resize my own images to better fit the website
+- I used [W3Schools](https://www.w3schools.com/css/css3_shadows_box.asp) to learn about box shadowing
+- I used [Google Fonts](https://fonts.google.com/) and [Font Pair](https://www.fontpair.co/all) for my fonts
+
+---
+
+## Acknowledgements
+
+I would like to take the opportunity to thank:
+
+- My mentor André Aquilina for guidance, encouragement and patience, as well as inspiration, tips and tricks throughout the project
+
+- My friend Viktor Hesselbom for introducing me to flex and taking the time to help me with text alignments when I just couldn't manage
+
+
+---
