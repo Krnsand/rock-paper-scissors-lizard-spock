@@ -40,13 +40,19 @@ body {
     background-color: rgb(40, 121, 132);
 }
 
+#reset {
+    display: inline-box;
+    color: antiquewhite;
+    background-color: rgb(40, 121, 132);
+}
+
 .messages {
     margin-top: 20px;
-	font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 .scores {
-    color:rgb(42, 49, 47);
+    color: rgb(42, 49, 47);
     font-size: 90%;
 }
 
@@ -64,7 +70,8 @@ body {
     margin-top: 1rem;
 }
 
-#player-image, #computer-image {
+#player-image,
+#computer-image {
     width: 75%;
 
 }
@@ -92,13 +99,28 @@ footer {
     display: flex;
     margin: 0.5rem auto 1rem auto;
     /*webkit-column-count: 2;
-    moz-column-count: 2;
-    column-count: 2;*/
+    moz-column-count: 2;*/
+    column-count: 2;
     font-size: 90%;
     justify-content: center;
 }
 
-.class > li {
+.class>li {
     display: inline;
     text-decoration: dotted;
+}
+
+@media (max-width: 500px) {
+    footer {
+        max-height: 200px;
+    }
+
+    .rules-list {
+        font-size: 60%;
+        margin: 0;
+    }
+
+    .game-area {
+        overflow: scroll;
+    }
 }
