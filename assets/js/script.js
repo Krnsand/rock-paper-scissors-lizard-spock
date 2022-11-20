@@ -97,11 +97,11 @@
          'spock': ['scissors', 'rock']
      };
    
-     if (playerChoice == computerChoice) {
+     if (playerChoice === computerChoice) {
          return 'draw';
      }
 
-     if (whatBeatsWhat[playerChoice].includes(computerChoice)) {
+     if (whatBeatsWhat[computerChoice].includes(playerChoice)) {
          return 'win';
      } else {
          return 'lose';
