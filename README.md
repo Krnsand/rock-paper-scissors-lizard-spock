@@ -18,7 +18,7 @@ I wanted my game to be easy to play and to understand, that is why the rules are
 
   - The header makes it clear what game one is playing if one waas to forget anytime during the game. 
 
-![Header](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/header.png)
+![Header](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/heading.png)
 
 - __Moves Left__
 
