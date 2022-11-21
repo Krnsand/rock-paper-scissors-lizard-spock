@@ -117,13 +117,12 @@ body {
 #computer-image {
     width: 75%;
     max-width: 320px;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 /* Footer with rules */
 
 footer {
-    /*position: fixed;*/
     display: block;
     padding-top: .3rem;
     margin-top: 2rem;
@@ -182,12 +181,11 @@ li {
     }
 }
 
-/*@media (max-width: 736px) {
-    .rules-list {
-        display: flex;
-        flex-wrap: wrap;
+@media (max-width: 736px) {
+    #heading {
+        margin: 5px;
     }
-}*/
+}
 
 @media (max-width: 500px) {
     footer {
