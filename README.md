@@ -71,12 +71,20 @@ I have tested my code throughout the project as I wanted to check regularly that
   <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/index_check.png">
   </details>
 
-And I have run my CSS through: 
+I have run my CSS through: 
 
 - The W3C CSS Validation Service:
 
   <details><summary>CSS</summary>
   <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/css_check.png">
+  </details>
+
+And I have run my JavaScript through: 
+
+- The JSHint website:
+
+  <details><summary>JavaScript</summary>
+  <img src="">
   </details>
 
 - I have successfully tested my website on Google Chrome, Firefox, Microsoft Edge, Safari and Samsung Internet Browser.
@@ -97,19 +105,10 @@ And I have run my CSS through:
   - Nest Hub
   - Nest Hub Max
 
-I tested my deployed website with Lighthouse and got the following results on each page:
+I tested my deployed website with Lighthouse and got the following results:
 
 <details><summary>Home</summary>
   <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/index_lighthouse.png">
-  </details>
-  <details><summary>Care Station</summary>
-  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/carestation_lighthouse.png">
-  </details>
-  <details><summary>Newsletter</summary>
-  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/newsletter_lighthouse.png">
-  </details>
-  <details><summary>Success</summary>
-  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/success_lighthouse.png">
   </details>
 
 I believe my performance score was effected by the sizes of my images. I will look into how to better the performance score in the future.
