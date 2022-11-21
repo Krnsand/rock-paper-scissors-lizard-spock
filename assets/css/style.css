@@ -51,37 +51,40 @@ body {
 #game-scroll {
     overflow: scroll;
     overflow-x: hidden;
-    /*padding-bottom: 200px;*/
 }
 
 .game-area {
-    width: 75%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
     text-align: center;
 }
 
+.movesleft, p {
+    font-size: 130%;
+}
+
 .control {
-    margin: 2px;
-    width: 80px;
-    height: 40px;
+    margin: 3px;
+    width: 90px;
+    height: 50px;
     color: antiquewhite;
     background-color: rgb(55, 7, 10);
-    /*background-color: rgb(40, 68, 132);*/
     border-radius: 2rem;
     font-family: "Josefin Sans", sans-serif;
+    font-size: 100%;
 }
 
 #reset {
     color: antiquewhite;
     background-color: rgb(55, 7, 10);
-    /*background-color: rgb(40, 68, 132);*/
-    width: 60px;
-    height: 30px;
+    width: 70px;
+    height: 40px;
     border-radius: 2rem;
     margin-top: 3px;
     font-family: "Josefin Sans", sans-serif;
+    font-size: 90%;
 }
 
 .messages {
@@ -91,7 +94,7 @@ body {
 
 .scores {
     color: antiquewhite;;
-    font-size: 100%;
+    font-size: 130%;
     margin-bottom: 0;
     text-shadow: 1px 1px #672e35;
 }
@@ -103,16 +106,9 @@ body {
 
 }
 
-.player {
+.player, .computer {
     /*background-color: rgba(255, 255, 255, 0.95);*/
-    width: 45%;
-    /*border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-}
-
-.computer {
-    /*background-color: rgba(255, 255, 255, 0.95);*/
-    width: 45%;
+    width: 50%;
     /*border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
@@ -121,6 +117,7 @@ body {
 #computer-image {
     width: 75%;
     max-width: 320px;
+    opacity: 0.9;
 }
 
 /* Footer with rules */
@@ -129,15 +126,13 @@ footer {
     /*position: fixed;*/
     display: block;
     padding-top: .3rem;
-    margin-top: .5rem;
+    margin-top: 2rem;
     clear: both;
     width: 100%;
-    left: 0;
-    bottom: 0;
-    /*box-sizing: border-box;*/
     background-color: rgba(55, 7, 10, 0.9);
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
+    padding-bottom: 2rem;
 }
 
 #rules {
@@ -153,7 +148,7 @@ footer {
     /*webkit-column-count: 2;
     moz-column-count: 2;
     column-count: 2;*/
-    font-size: 90%;
+    font-size: 100%;
     justify-content: space-evenly;
 }
 
