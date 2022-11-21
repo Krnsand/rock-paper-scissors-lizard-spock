@@ -59,11 +59,13 @@ body {
     height: 40px;
     color: antiquewhite;
     background-color: rgb(40, 121, 132);
+    border-radius: 2rem;
 }
 
 #reset {
     color: antiquewhite;
     background-color: rgb(40, 121, 132);
+    border-radius: 2rem;
 }
 
 .messages {
@@ -82,6 +84,7 @@ body {
     float: left;
     width: 45%;
     margin-top: 1rem;
+    border-radius: .5rem;
 }
 
 .computer {
@@ -89,6 +92,7 @@ body {
     float: right;
     width: 45%;
     margin-top: 1rem;
+    border-radius: .5rem;
 }
 
 #player-image,
@@ -106,6 +110,8 @@ footer {
     bottom: 0;
     box-sizing: border-box;
     background-color: rgb(40, 121, 132);
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
 }
 
 #rules {
@@ -164,13 +170,6 @@ li {
         margin: 0;
     }
 
-    #game-scroll {
-        overflow: scroll;
-        overflow-x: hidden;
-        padding-bottom: 200px;
-    }
-
-
 }
 
 @media (max-width: 280px) {
@@ -193,5 +192,9 @@ li {
 
     .rules-list {
         font-size: 50%;
+    }
+
+    li {
+        margin-top: 2px;
     }
 }
