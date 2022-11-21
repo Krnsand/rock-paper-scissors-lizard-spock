@@ -66,6 +66,7 @@ body {
     color: antiquewhite;
     background-color: rgb(40, 121, 132);
     border-radius: 2rem;
+    margin-top: 3px;
 }
 
 .messages {
