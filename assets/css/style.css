@@ -30,7 +30,6 @@ html {
 }
 
 body {
-    /*background-color: rgb(42, 49, 47);*/
     margin: 0;
     font-family: "Josefin Sans", sans-serif;
     color: antiquewhite;
@@ -96,7 +95,7 @@ body {
     color: antiquewhite;;
     font-size: 150%;
     margin-bottom: 0;
-    text-shadow: 3px 3px #672e35;
+    text-shadow: 3px 3px #3f1c20;
 }
 
 .game-wrapper {
@@ -107,10 +106,7 @@ body {
 }
 
 .player, .computer {
-    /*background-color: rgba(255, 255, 255, 0.95);*/
     width: 50%;
-    /*border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 #player-image,
@@ -144,9 +140,6 @@ footer {
 .rules-list {
     display: flex;
     margin: 0 auto;
-    /*webkit-column-count: 2;
-    moz-column-count: 2;
-    column-count: 2;*/
     font-size: 120%;
     justify-content: space-evenly;
 }
@@ -161,12 +154,6 @@ li {
 }
 
 @media (max-width: 1280px) {
-    /*#game-scroll {
-        overflow: scroll;
-        overflow-x: hidden;
-        padding-bottom: 200px;
-    }*/
-
     footer {
         max-height: 30%;
     }
