@@ -108,38 +108,20 @@ And I have run my JavaScript through:
 I tested my deployed website with Lighthouse and got the following results:
 
 <details><summary>Home</summary>
-  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/index_lighthouse.png">
+  <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/lighthouse.png">
   </details>
 
-I believe my performance score was effected by the sizes of my images. I will look into how to better the performance score in the future.
+In my last project my "Performance score" was not very good and I deducted that it was because of the image sizes I was using. I kept that in mind this time around and comressed the images I used, specifically the background image.
 
 ### Unfixed Bugs
 
-- A bug I noticed was that sometimes, after having had Google Chrome Developer Tools open for a while, the website looked like this when developer Tools was closed:
-
-<details><summary>Bug image</summary>
-<img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/bug.png">
-</details>
-<details><summary>Bug image</summary>
-<img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/bug1.png">
-</details>
-
-It was as if DevTools was still open and set to a certain device screen-size even after it had been closed. If I went to another tab and then returned to my website, the layout had fixed itself, always. I don't understand it and I don't know what to do about it. I will look into it in the future. 
-
-- Another bug (or an interesting special feature perhaps) I found was that some of my style to the Home page did not show up as intended on my own phone. The reason being I have it on "dark mode". Personally I don't mind this "bug" as it doesn't make anything hard to read or messes with the layout or anything else. It just doesn't look as intended. I will look into why it does this in the future, but for now I am enjoying the special effects.
-
-<details><summary>Intended</summary>
-<img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/intended.jpg">
-</details>
-<details><summary>Dark Mode</summary>
-<img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/dark_mode.jpg">
-</details>
+- I have not experienced any bugs at this time. 
 
 ---
 
 ## Deployment
 
-- My website was deployed to GitHub pages. The following steps were used: 
+- I deplyed my game to GitHub pages. The following steps were used: 
   - In the Github repository of the project find and click the <em>settings</em> symbol  
   - On the left hand side there is a menu, find and click <em>Pages</em>
   - Choose the <em>main</em> branch from the <em>none</em> drop down menu and click save
