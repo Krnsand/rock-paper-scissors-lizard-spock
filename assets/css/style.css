@@ -48,6 +48,12 @@ body {
 
 /* Game area */
 
+#game-scroll {
+    overflow: scroll;
+    overflow-x: hidden;
+    padding-bottom: 200px;
+}
+
 .game-area {
     width: 75%;
     margin-left: auto;
@@ -64,14 +70,18 @@ body {
     background-color: rgb(55, 7, 10);
     /*background-color: rgb(40, 68, 132);*/
     border-radius: 2rem;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 #reset {
     color: antiquewhite;
     background-color: rgb(55, 7, 10);
     /*background-color: rgb(40, 68, 132);*/
+    width: 60px;
+    height: 30px;
     border-radius: 2rem;
     margin-top: 3px;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .messages {
@@ -80,34 +90,34 @@ body {
 }
 
 .scores {
-    color: rgb(42, 49, 47);
+    color: antiquewhite;;
     font-size: 100%;
     margin-bottom: 0;
-    text-shadow: 1px 1px #a3b5d1;
+    text-shadow: 1px 1px #672e35;
 }
 
 .player {
-    background-color: rgba(255, 255, 255, 0.95);
+    /*background-color: rgba(255, 255, 255, 0.95);*/
     float: left;
     width: 45%;
     margin-top: 1rem;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .computer {
-    background-color: rgba(255, 255, 255, 0.95);
+    /*background-color: rgba(255, 255, 255, 0.95);*/
     float: right;
     width: 45%;
     margin-top: 1rem;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 #player-image,
 #computer-image {
-    width: 70%;
-    opacity: 0.7;
+    width: 90%;
+    opacity: 0.9;
 }
 
 /* Footer with rules */
@@ -151,11 +161,11 @@ li {
 }
 
 @media (max-width: 1280px) {
-    #game-scroll {
+    /*#game-scroll {
         overflow: scroll;
         overflow-x: hidden;
         padding-bottom: 200px;
-    }
+    }*/
 
     footer {
         max-height: 30%;
@@ -189,7 +199,7 @@ li {
     }
 
     .game-area {
-        width: 85%;
+        width: 90%;
     }
 
     .scores {
