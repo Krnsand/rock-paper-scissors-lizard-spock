@@ -25,13 +25,16 @@
 html {
     min-height: 100%;
     position: relative;
+    background: url(../images/background1.png) no-repeat center center fixed;
+    background-size: cover;
 }
 
 body {
-    background-color: rgb(42, 49, 47);
+    /*background-color: rgb(42, 49, 47);*/
     margin: 0;
     font-family: "Josefin Sans", sans-serif;
     color: antiquewhite;
+    text-shadow: 2px 2px #0c2955;
 }
 
 #heading {
@@ -58,13 +61,13 @@ body {
     width: 80px;
     height: 40px;
     color: antiquewhite;
-    background-color: rgb(40, 121, 132);
+    background-color: rgb(40, 68, 132);
     border-radius: 2rem;
 }
 
 #reset {
     color: antiquewhite;
-    background-color: rgb(40, 121, 132);
+    background-color: rgb(40, 68, 132);
     border-radius: 2rem;
     margin-top: 3px;
 }
@@ -78,6 +81,7 @@ body {
     color: rgb(42, 49, 47);
     font-size: 90%;
     margin-bottom: 0;
+    text-shadow: 1px 1px #a3b5d1;
 }
 
 .player {
@@ -110,7 +114,7 @@ footer {
     left: 0;
     bottom: 0;
     box-sizing: border-box;
-    background-color: rgb(40, 121, 132);
+    background-color: rgba(40, 68, 132, 0.8);
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
 }
@@ -175,7 +179,7 @@ li {
 
     .rules-list {
         font-size: 60%;
-        margin: 0;
+        margin-right: 5px;
     }
 
 }
