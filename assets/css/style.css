@@ -51,7 +51,7 @@ body {
 #game-scroll {
     overflow: scroll;
     overflow-x: hidden;
-    padding-bottom: 200px;
+    /*padding-bottom: 200px;*/
 }
 
 .game-area {
@@ -96,39 +96,45 @@ body {
     text-shadow: 1px 1px #672e35;
 }
 
+.game-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+
 .player {
     /*background-color: rgba(255, 255, 255, 0.95);*/
-    float: left;
     width: 45%;
-    margin-top: 1rem;
     /*border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .computer {
     /*background-color: rgba(255, 255, 255, 0.95);*/
-    float: right;
     width: 45%;
-    margin-top: 1rem;
     /*border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 #player-image,
 #computer-image {
-    width: 90%;
-    opacity: 0.9;
+    width: 75%;
+    max-width: 320px;
 }
 
 /* Footer with rules */
 
 footer {
-    position: fixed;
-    /*display: block;*/
+    /*position: fixed;*/
+    display: block;
+    padding-top: .3rem;
+    margin-top: .5rem;
+    clear: both;
     width: 100%;
     left: 0;
     bottom: 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     background-color: rgba(55, 7, 10, 0.9);
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
