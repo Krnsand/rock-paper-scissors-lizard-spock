@@ -34,7 +34,7 @@ body {
     margin: 0;
     font-family: "Josefin Sans", sans-serif;
     color: antiquewhite;
-    text-shadow: 2px 2px #0c2955;
+    text-shadow: 3px 3px #0c2955;
 }
 
 #heading {
@@ -94,9 +94,9 @@ body {
 
 .scores {
     color: antiquewhite;;
-    font-size: 130%;
+    font-size: 150%;
     margin-bottom: 0;
-    text-shadow: 1px 1px #672e35;
+    text-shadow: 3px 3px #672e35;
 }
 
 .game-wrapper {
@@ -147,7 +147,7 @@ footer {
     /*webkit-column-count: 2;
     moz-column-count: 2;
     column-count: 2;*/
-    font-size: 100%;
+    font-size: 120%;
     justify-content: space-evenly;
 }
 
@@ -181,9 +181,13 @@ li {
     }
 }
 
-@media (max-width: 736px) {
+@media (max-width: 768px) {
     #heading {
         margin: 5px;
+    }
+
+    footer {
+        margin-top: 20rem;
     }
 }
 
