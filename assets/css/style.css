@@ -81,32 +81,33 @@ body {
 
 .scores {
     color: rgb(42, 49, 47);
-    font-size: 85%;
+    font-size: 100%;
     margin-bottom: 0;
     text-shadow: 1px 1px #a3b5d1;
 }
 
 .player {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.95);
     float: left;
     width: 45%;
     margin-top: 1rem;
-    border-radius: 40%;
+    border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .computer {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.95);
     float: right;
     width: 45%;
     margin-top: 1rem;
-    border-radius: 40%;
+    border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #player-image,
 #computer-image {
     width: 70%;
+    opacity: 0.7;
 }
 
 /* Footer with rules */
@@ -189,6 +190,10 @@ li {
 
     .game-area {
         width: 85%;
+    }
+
+    .scores {
+        font-size: 85%;
     }
 
 }
