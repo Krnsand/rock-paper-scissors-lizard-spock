@@ -126,8 +126,8 @@ footer {
     display: flex;
     margin: 0 auto;
     /*webkit-column-count: 2;
-    moz-column-count: 2;*/
-    column-count: 2;
+    moz-column-count: 2;
+    column-count: 2;*/
     font-size: 90%;
     justify-content: space-evenly;
 }
