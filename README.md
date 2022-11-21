@@ -107,11 +107,11 @@ And I have run my JavaScript through:
 
 I tested my deployed website with Lighthouse and got the following results:
 
-<details><summary>Home</summary>
+<details><summary>Index</summary>
   <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/lighthouse.png">
   </details>
 
-In my last project my "Performance score" was not very good and I deducted that it was because of the image sizes I was using. I kept that in mind this time around and comressed the images I used, specifically the background image.
+In my last project my "Performance score" was not very good due to the image sizes I was using. I kept that in mind this time around and comressed the images I used, specifically the background image.
 
 ### Unfixed Bugs
 
@@ -125,7 +125,7 @@ In my last project my "Performance score" was not very good and I deducted that 
   - In the Github repository of the project find and click the <em>settings</em> symbol  
   - On the left hand side there is a menu, find and click <em>Pages</em>
   - Choose the <em>main</em> branch from the <em>none</em> drop down menu and click save
-  - The link to the website needs a couple of minutes to load, then refresh the page and the link will show up at the top of the <em>Pages</em> section with the text "Your site is live at https://krnsand.github.io/portfolio1_plant_care/" 
+  - The link to the website needs a couple of minutes to load, then refresh the page and the link will show up at the top of the <em>Pages</em> section with the text "Your site is live at https://krnsand.github.io/rock-paper-scissors-lizard-spock/" 
 
 ---
 
@@ -133,28 +133,28 @@ In my last project my "Performance score" was not very good and I deducted that 
 
 ### Content 
 
-- I used code snippets from the Love Running project on: 
-   - the footer
-   - the sign up form
+- I used code snippets from the Rock, Paper, Scissors project in the "Portfolio Project Scope" video on: 
+   - the buttons in the index.html
+   - the beginning of my script.js, see comment
 
-- Most of the infomation on this page has been gathered by me over the years as a plant enthusiast from trial and (many) errors as well as from various facebook groups. I used: 
+- The concept of the game is from The Big Bang Theory (Tv-show). I got the "start image" and the rules from this website: 
 
-    - [Greenery:Unlimited](https://greeneryunlimited.co/blogs/plant-care/monstera-deliciosa-care) 
-    - [Potted Pixie](https://pottedpixie.com/monstera-albo-care/)
-    - [The Spruce](https://www.thespruce.com/grow-coleus-plants-indoors-1902746)
+    - [Big Bang Theory Fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock) 
 
-  to complement my information as well
 
-- I used [Font Awesome](https://fontawesome.com/) for the footer icons as well as the leaf in my sign up form
-- I used [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-create-icon-hover-effect-using-css/) to add more styling to the footer icons. I copied the code to the relevant icons on my page
-- I used [Flexbox Froggy](https://flexboxfroggy.com/) to better understand flex
+- I used [Font Awesome](https://fontawesome.com/) for the arrows that points down at the buttons
+- I used [Geeks for Geeks](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/?tab=article) to get the "moves left" function idea and to get an understanding of what the code for the project could look like. I did not end up using any of the code.
+- I used [Flexbox Froggy](https://flexboxfroggy.com/) to freshen up my understanding of flex
  
 ### Media
 
-- I used [Pexels](https://www.pexels.com/sv-se/) and [Pixabay](https://pixabay.com/) for most of my images
-- I used [Adobe Express](https://www.adobe.com/express/feature/image/resize) to resize my own images to better fit the website
+- I used [Live Science](https://www.livescience.com/37206-atom-definition.html) for my background
+- I used [Pixlr](https://pixlr.com/se/e/#home) to cut and reshape the "start image" into the individual options one can play
+- I used [TinyPNG](https://tinypng.com/) to compress my background image
 - I used [W3Schools](https://www.w3schools.com/css/css3_shadows_box.asp) to learn about box shadowing
-- I used [Google Fonts](https://fonts.google.com/) and [Font Pair](https://www.fontpair.co/all) for my fonts
+- I used [Kevin Powell](https://www.youtube.com/watch?v=lvKK2fs6h4I) to better understand the scroll bar
+- I used [W3Schools](https://www.w3schools.com/html/html_favicon.asp) and [Fonticon](https://gauger.io/fonticon/) for my favicon
+- I used [Google Fonts](https://fonts.google.com/) for my fonts
 
 ---
 
@@ -162,9 +162,9 @@ In my last project my "Performance score" was not very good and I deducted that 
 
 I would like to take the opportunity to thank:
 
-- My mentor André Aquilina for guidance, encouragement and patience, as well as inspiration, tips and tricks throughout the project
+- My mentor André Aquilina for guidance and patience throughout the project, as well as help with the checkWinner function
 
-- My friend Viktor Hesselbom for introducing me to flex and taking the time to help me with text alignments when I just couldn't manage
+- My friend Viktor Hesselbom for taking the time to help me with parts of my project
 
 
 ---
