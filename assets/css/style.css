@@ -90,6 +90,7 @@ body {
     width: 45%;
     margin-top: 1rem;
     border-radius: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .computer {
@@ -98,6 +99,7 @@ body {
     width: 45%;
     margin-top: 1rem;
     border-radius: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #player-image,
@@ -114,7 +116,7 @@ footer {
     left: 0;
     bottom: 0;
     box-sizing: border-box;
-    background-color: rgba(40, 68, 132, 0.8);
+    background-color: rgba(40, 68, 132, 0.9);
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
 }
@@ -162,6 +164,7 @@ li {
 
     .rules-list {
         font-size: 70%;
+        padding-bottom: 5px;
     }
 }
 
