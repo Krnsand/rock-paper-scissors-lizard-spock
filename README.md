@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors, Lizard, Spock
 
-This is the classic game of Rock, paper, scissors but with a fun twist! Rock, Paper, Scissors, Lizard, Spock is the version of that game that the characters from The Big Bang Theory plays. While the old rules still applies, there are two new playable options that take the game to a new level! Click the link below to try it yourself!
+This is the classic game of Rock, paper, scissors but with a fun twist! Rock, Paper, Scissors, Lizard, Spock is the version of the game that the characters from The Big Bang Theory plays. While the old rules still applies, there are two new playable options that take the game to a new level! Click the link below to try it yourself!
 
 ![Responsive Mockup](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/am_i_responsive.png)
 
@@ -10,41 +10,41 @@ This is the classic game of Rock, paper, scissors but with a fun twist! Rock, Pa
 
 ## Features 
 
-I wanted my game to be easy to play and to understand, that is why the rules are posted at the bottom of the page at all times so that one can easily check to see which option does what.
+I wanted my game to be easy to play and to understand, that is why the rules are posted at the bottom of the page so that one can easily check to see which option does what.
 
 ### Existing Features
 
 - __Header__
 
-  - The header makes it clear what game one is playing if one waas to forget anytime during the game. 
+  - The header makes it clear what game one is playing if one was to forget anytime during the game. 
 
 ![Header](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/heading.png)
 
 - __Moves Left__
 
   - This function shows the player how many moves one has left during the game as it counts down with every click to finaly stop at 0.  
-  - It can be fun for the player to see how many moves makes up one game so that it does not come as a surprise when the game is over.
+  - It can be fun for the player to see how many moves make up one game so that it does not come as a surprise when the game is over.
 
 ![Moves Left](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/moves_left.png)
 
 - __The Controls__
 
   - Here the player can see what options one can choose from to play. 
-  - Underneath the player options one will find the "reset button" that resets the game after it is over. It will reset the game wherever in the game one might find themselves in, but what is the fun in that?
+  - Underneath the player options one will find the "reset button" that resets the game after it is over. It will reset the game wherever in the game the player might find themselves in, but what is the fun in that?
 
 ![The Controls](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/controls.png)
 
 - __The Game Area__ 
 
   - In the game area one can see an image of the option one chooses to play. This creates an interactive experience which can enhance the user experience.
-  - Here one can also se the scores being counted at the top of each image.
+  - Here one can also see the scores being counted at the top of each image.
 
 ![Game Area](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/game_area.png)
 
 - __Who Won__
 
   - Here the player gets a message saying who won the game. 
-  - It shows up right underneath the reset button which makes it easy to restart and play again. 
+  - It shows up right underneath the reset button which makes it easy to restart the game and play again. 
 
 ![Who Won](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/who_won.png)
 
@@ -56,8 +56,8 @@ I wanted my game to be easy to play and to understand, that is why the rules are
 
 ### Features Left to Implement
 
-- I would like to add more plants in the future as well as video tutourials on different plant related things.
-- I would like to go more in depth on some parts of the care as some details require more work and could use more detailed pictures.
+- I would like to add a multiplayer feature in the future, where two players can play against each other.
+- I would like to add some sound effects to the "Who Won" message.
 
 ---
 
@@ -67,17 +67,8 @@ I have tested my code throughout the project as I wanted to check regularly that
 
 - The W3C Markup Validation Service: 
 
-  <details><summary>Home</summary>
-  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/index_check.png">
-  </details>
-  <details><summary>Care Station</summary>
-  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/carestation_check.png">
-  </details>
-  <details><summary>Newsletter</summary>
-  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/newsletter_check.png">
-  </details>
-  <details><summary>Success</summary>
-  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/success_check.png">
+  <details><summary>Index</summary>
+  <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/index_check.png">
   </details>
 
 And I have run my CSS through: 
@@ -85,11 +76,11 @@ And I have run my CSS through:
 - The W3C CSS Validation Service:
 
   <details><summary>CSS</summary>
-  <img src="https://github.com/Krnsand/portfolio1_plant_care/blob/main/readme_images/style.css_check.png">
+  <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/css_check.png">
   </details>
 
 - I have successfully tested my website on Google Chrome, Firefox, Microsoft Edge, Safari and Samsung Internet Browser.
-- I have used Google Chrome Developer Tools through out the creation of my project to test layouts and responsivness as I progressed.
+- I have used Google Chrome Developer Tools throughout the creation of my project to test layouts and responsivness as I progressed.
 - I have used Google Chrome Developer Tools to test on following devices:
   - iPhone SE
   - iPhone XR
