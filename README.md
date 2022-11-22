@@ -88,10 +88,12 @@ And I have run my JavaScript through:
   </details>
 
   <details><summary>Specific JSHint</summary>
-  <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/jshint.png">
+  <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/specific_jshint.png">
   </details>
 
 While I don't have any errors in my js code I do have quite a bit of warnings. I talked to my mentor about these who whent through them with me.
+
+The specific warning in my second image 
 
 - I have successfully tested my website on Google Chrome, Firefox, Microsoft Edge, Safari and Samsung Internet Browser.
 - I have used Google Chrome Developer Tools throughout the creation of my project to test layouts and responsivness as I progressed.
@@ -159,8 +161,7 @@ In my last project my "Performance score" was not very good due to the image siz
 - I used [Live Science](https://www.livescience.com/37206-atom-definition.html) for my background
 - I used [Pixlr](https://pixlr.com/se/e/#home) to cut and reshape the "start image" into the individual options one can play
 - I used [TinyPNG](https://tinypng.com/) to compress my background image
-- I used [W3Schools](https://www.w3schools.com/css/css3_shadows_box.asp) to learn about box shadowing
-- I used [Kevin Powell](https://www.youtube.com/watch?v=lvKK2fs6h4I) to better understand the scroll bar
+- I used [Geeks for Geeks](https://www.geeksforgeeks.org/css-font-border/) to get the font border on my text
 - I used [W3Schools](https://www.w3schools.com/html/html_favicon.asp) and [Fonticon](https://gauger.io/fonticon/) for my favicon
 - I used [Google Fonts](https://fonts.google.com/) for my fonts
 
