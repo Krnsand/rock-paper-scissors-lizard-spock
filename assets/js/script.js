@@ -17,18 +17,16 @@
  let computerScore = 0;
 
  document.addEventListener("DOMContentLoaded", function () {
-     let buttons = document.getElementsByTagName("button");
+     let resetButton = document.getElementById("reset");
+     resetButton.addEventListener("click", resetGame);
+     let buttons = document.getElementsByClassName("control");
 
      for (let button of buttons) {
          button.addEventListener("click", function () {
-             if (this.getAttribute("id") == "reset") {
-                 resetGame();
 
-             } else {
+             let playerChoice = this.getAttribute("data-choice");
+             runGame(playerChoice);
 
-                 let playerChoice = this.getAttribute("data-choice");
-                 runGame(playerChoice);
-             }
          });
      }
  });
@@ -61,7 +59,7 @@
      }
 
      movesLeft -= 1;
-     updateHTML();
+     updateMetrics();
 
      if (movesLeft == 0) {
 
@@ -80,7 +78,7 @@
  /**
   * Updates the HTML without having to call it in multiple places
   */
- function updateHTML() {
+ function updateMetrics() {
      movesLeftElement.innerText = movesLeft;
      playerScoreElement.innerText = playerScore;
      computerScoreElement.innerText = computerScore;
@@ -98,7 +96,7 @@
          'lizard': ['paper', 'spock'],
          'spock': ['scissors', 'rock']
      };
-   
+
      if (playerChoice === computerChoice) {
          return 'draw';
      }
@@ -117,7 +115,7 @@
      movesLeft = 10;
      playerScore = 0;
      computerScore = 0;
-     updateHTML();
+     updateMetrics();
 
      playerImage.src = `assets/images/rpsls-left.png`;
      computerImage.src = `assets/images/rpsls-right.png`;
