@@ -70,7 +70,7 @@ body {
 
 .messages {
     margin-top: 20px;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .scores {
@@ -84,7 +84,7 @@ body {
 .game-wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: .5rem;
 
 }
 
