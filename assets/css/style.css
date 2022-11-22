@@ -33,7 +33,7 @@ body {
     margin: 0;
     font-family: "Josefin Sans", sans-serif;
     color: antiquewhite;
-    text-shadow: 3px 3px #3e0707;
+    text-shadow: 2px 2px #3e0707;
 }
 
 #heading {
@@ -95,7 +95,7 @@ body {
     color: antiquewhite;;
     font-size: 150%;
     margin-bottom: 0;
-    text-shadow: 3px 3px #3e0707;
+    text-shadow: 2px 2px #3e0707;
 }
 
 .game-wrapper {
@@ -181,10 +181,11 @@ li {
 @media (max-width: 500px) {
     footer {
         margin-top: 2rem;
+        padding-bottom: 1rem;
     }
 
     .rules-list {
-        font-size: 60%;
+        font-size: 80%;
         margin-right: 5px;
     }
 
