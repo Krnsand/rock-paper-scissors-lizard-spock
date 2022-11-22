@@ -84,12 +84,19 @@ And I have run my JavaScript through:
 - The JSHint website:
 
   <details><summary>JavaScript</summary>
-  <img src="">
+  <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/jshint.png">
   </details>
+
+  <details><summary>Specific JSHint</summary>
+  <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/jshint.png">
+  </details>
+
+While I don't have any errors in my js code I do have quite a bit of warnings. I talked to my mentor about these who whent through them with me.
 
 - I have successfully tested my website on Google Chrome, Firefox, Microsoft Edge, Safari and Samsung Internet Browser.
 - I have used Google Chrome Developer Tools throughout the creation of my project to test layouts and responsivness as I progressed.
 - I have used Google Chrome Developer Tools to test on following devices:
+  - iPhone 4
   - iPhone SE
   - iPhone XR
   - iPhone 12 PRO
@@ -145,6 +152,7 @@ In my last project my "Performance score" was not very good due to the image siz
 - I used [Font Awesome](https://fontawesome.com/) for the arrows that points down at the buttons
 - I used [Geeks for Geeks](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/?tab=article) to get the "moves left" function idea and to get an understanding of what the code for the project could look like. I did not end up using any of the code.
 - I used [Flexbox Froggy](https://flexboxfroggy.com/) to freshen up my understanding of flex
+- I used [Team Treehouse](https://teamtreehouse.com/community/why-does-jshint-give-me-these-warnings-about-es6) to silence all warnings about my js code in the first image of my js code testing area as the warnings were not about things being wrong with my code, but merely informing me that I am using the "new" JavaScript version.
  
 ### Media
 

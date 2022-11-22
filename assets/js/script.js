@@ -1,10 +1,10 @@
+ // jshint esversion: 6
  /**
   * Declare constants for DOM elements
   * and possible choices
   */
 
  //Copied (and slightly altered) from Portfolio Project Scope video, until line 53
- const buttons = document.getElementsByClassName("control");
  const playerScoreElement = document.getElementById("player-score");
  const computerScoreElement = document.getElementById("computer-score");
  const playerImage = document.getElementById("player-image");
