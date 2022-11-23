@@ -10,7 +10,7 @@ This is the classic game of Rock, Paper, Scissors but with a fun twist! Rock, Pa
 
 ## Features 
 
-I wanted my game to be easy to play and to understand, that is why the rules are posted at the bottom of the page so that one can easily check to see which option does what.
+I wanted my game to be easy to play and to understand, that is why the rules are posted at the bottom of the page so that the player can easily check to see which option does what.
 
 ### Existing Features
 
@@ -22,7 +22,7 @@ I wanted my game to be easy to play and to understand, that is why the rules are
 
 - __Moves Left__
 
-  - This function shows the player how many moves one has left during the game as it counts down with every click to finaly stop at 0.  
+  - This function shows the player how many moves one has left during the game as it counts down with every click to finally stop at 0.  
   - It can be fun for the player to see how many moves make up one game so that it does not come as a surprise to them when the game is over.
 
 ![Moves Left](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/moves_left.png)
@@ -37,7 +37,7 @@ I wanted my game to be easy to play and to understand, that is why the rules are
 - __The Game Area__ 
 
   - In the game area the player can see an image of the options they choose to play. This creates an interactive experience which can enhance the user experience.
-  - Here one can also see the scores being counted at the top of each image.
+  - Here one can also see the players score and the computers score being counted at the top of each image.
 
 ![Game Area](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/game_area.png)
 
@@ -57,7 +57,7 @@ I wanted my game to be easy to play and to understand, that is why the rules are
 ### Features Left to Implement
 
 - I would like to add a multiplayer feature in the future, where two players can play against each other.
-- I would like to add some sound effects to the "Who Won" message.
+- I would like to add some sound effects to the "Who Won" message, and maybe son confetty. 
 
 ---
 
@@ -87,7 +87,7 @@ And I have run my JavaScript through:
   <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/jshint.png">
   </details>
 
-  While I don't have any errors in my js code I do have quite a bit of warnings. I talked to my mentor about these who whent through them with me.
+  While I don't have any errors in my js code I do have quite a bit of warnings. I talked to my mentor about these who whent through them with me. I silenced the warnings after having gotten them explained. 
 
   <details><summary>Specific JSHint</summary>
   <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/specific_jshint.png">
@@ -162,7 +162,7 @@ In my last project my "Performance score" was not very good due to the image siz
 
 - I used [Live Science](https://www.livescience.com/37206-atom-definition.html) for my background
 - I used [Pixlr](https://pixlr.com/se/e/#home) to cut and reshape the "start image" into the individual options one can play
-- I used [TinyPNG](https://tinypng.com/) to compress my background image
+- I used [TinyPNG](https://tinypng.com/) to compress my images
 - I used [Geeks for Geeks](https://www.geeksforgeeks.org/css-font-border/) to get the font border on my text
 - I used [W3Schools](https://www.w3schools.com/html/html_favicon.asp) and [Fonticon](https://gauger.io/fonticon/) for my favicon
 - I used [Google Fonts](https://fonts.google.com/) for my fonts
@@ -173,9 +173,11 @@ In my last project my "Performance score" was not very good due to the image siz
 
 I would like to take the opportunity to thank:
 
-- My mentor André Aquilina for guidance and patience throughout the project, as well as help with writing the checkWinner function cleaner
+- My mentor André Aquilina for guidance and patience throughout the project, as well as help with writing the checkWinner function in a much cleaner way
 
 - My friend Viktor Hesselbom for taking the time to help me with parts of my project
+
+
 
 
 ---
