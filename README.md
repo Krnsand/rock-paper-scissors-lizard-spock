@@ -57,7 +57,7 @@ I wanted my game to be easy to play and to understand, that is why the rules are
 ### Features Left to Implement
 
 - I would like to add a multiplayer feature in the future, where two players can play against each other.
-- I would like to add some sound effects to the "Who Won" message, and maybe son confetty. 
+- I would like to add some sound effects to the "Who Won" message, and maybe some confetty. 
 
 ---
 
@@ -87,13 +87,13 @@ And I have run my JavaScript through:
   <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/jshint.png">
   </details>
 
-  While I don't have any errors in my js code I do have quite a bit of warnings. I talked to my mentor about these who whent through them with me. I silenced the warnings after having gotten them explained. 
+  While I do not have any errors in my js code I do have quite a bit of warnings. I talked to my mentor about these who went through them with me. I silenced the warnings after having gotten them explained. 
 
   <details><summary>Specific JSHint</summary>
   <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/specific_jshint.png">
   </details>
 
-The specific warning in my second image states that as that function is created inside a for loop, it may be difficult to read. It should not, however, have any real effect on how the code runs.  
+The specific warning in my second image states that as that function is created inside a for loop, it may be difficult to read semantically. It should not, however, have any real effect on how the code runs.  
 
 - I have successfully tested my website on Google Chrome, Firefox, Microsoft Edge, Safari and Samsung Internet Browser.
 - I have used Google Chrome Developer Tools throughout the creation of my project to test layouts and responsivness as I progressed.
@@ -121,7 +121,7 @@ I tested my deployed website with Lighthouse and got the following results:
   <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/lighthouse.png">
   </details>
 
-In my last project my "Performance score" was not very good due to the image sizes I was using I believe. I kept that in mind this time around and comressed the images I used, specifically the background image.
+In my last project my "Performance score" was not very good due to the image sizes I was using I believe. I kept that in mind this time around and comressed the images I used, espescially the background image.
 
 ### Unfixed Bugs
 
