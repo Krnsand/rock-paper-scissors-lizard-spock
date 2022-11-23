@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors, Lizard, Spock!
 
-This is the classic game of Rock, paper, scissors but with a fun twist! Rock, Paper, Scissors, Lizard, Spock is the version of the game that the characters from The Big Bang Theory plays. While the old rules still applies, there are two new playable options that take the game to a new level! Click the link below to try it yourself!
+This is the classic game of Rock, Paper, Scissors but with a fun twist! Rock, Paper, Scissors, Lizard, Spock is the version of the game that the characters from The Big Bang Theory plays. While the old rules still applies, there are two new playable options that take the game to a whole new level! Click the link below to try it yourself!
 
 ![Responsive Mockup](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/am_i_responsive.png)
 
@@ -23,7 +23,7 @@ I wanted my game to be easy to play and to understand, that is why the rules are
 - __Moves Left__
 
   - This function shows the player how many moves one has left during the game as it counts down with every click to finaly stop at 0.  
-  - It can be fun for the player to see how many moves make up one game so that it does not come as a surprise when the game is over.
+  - It can be fun for the player to see how many moves make up one game so that it does not come as a surprise to them when the game is over.
 
 ![Moves Left](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/moves_left.png)
 
@@ -36,7 +36,7 @@ I wanted my game to be easy to play and to understand, that is why the rules are
 
 - __The Game Area__ 
 
-  - In the game area one can see an image of the option one chooses to play. This creates an interactive experience which can enhance the user experience.
+  - In the game area the player can see an image of the options they choose to play. This creates an interactive experience which can enhance the user experience.
   - Here one can also see the scores being counted at the top of each image.
 
 ![Game Area](https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/game_area.png)
@@ -156,6 +156,7 @@ In my last project my "Performance score" was not very good due to the image siz
 - I used [Geeks for Geeks](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/?tab=article) to get the "moves left" function idea and to get an understanding of what the code for the project could look like. I did not end up using any of the code though.
 - I used [Flexbox Froggy](https://flexboxfroggy.com/) to freshen up my understanding of flex
 - I used [Team Treehouse](https://teamtreehouse.com/community/why-does-jshint-give-me-these-warnings-about-es6) to silence all warnings about my js code in the first image of my js code testing area as the warnings were not about things being wrong with my code, but merely informing me that I am using the "new" JavaScript version.
+- I used [Reddit](https://www.reddit.com/r/learnjavascript/comments/q5dno7/functions_declared_within_loops_referencing_an/) to get an idea for how to explain my remaining warning in JSHint. I googled a lot but I felt Rossmci90 answer to a question similar to mine explained it in the easiest way.
  
 ### Media
 
