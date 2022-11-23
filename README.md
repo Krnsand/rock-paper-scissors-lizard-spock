@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors, Lizard, Spock
+# Rock, Paper, Scissors, Lizard, Spock!
 
 This is the classic game of Rock, paper, scissors but with a fun twist! Rock, Paper, Scissors, Lizard, Spock is the version of the game that the characters from The Big Bang Theory plays. While the old rules still applies, there are two new playable options that take the game to a new level! Click the link below to try it yourself!
 
@@ -87,17 +87,18 @@ And I have run my JavaScript through:
   <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/jshint.png">
   </details>
 
+  While I don't have any errors in my js code I do have quite a bit of warnings. I talked to my mentor about these who whent through them with me.
+
   <details><summary>Specific JSHint</summary>
   <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/specific_jshint.png">
   </details>
 
-While I don't have any errors in my js code I do have quite a bit of warnings. I talked to my mentor about these who whent through them with me.
-
-The specific warning in my second image 
+The specific warning in my second image states that as that function is created inside a for loop, it may be difficult to read. It should not, however, have any real effect on how the code runs.  
 
 - I have successfully tested my website on Google Chrome, Firefox, Microsoft Edge, Safari and Samsung Internet Browser.
 - I have used Google Chrome Developer Tools throughout the creation of my project to test layouts and responsivness as I progressed.
 - I have used Google Chrome Developer Tools to test on following devices:
+
   - iPhone 4
   - iPhone SE
   - iPhone XR
@@ -120,7 +121,7 @@ I tested my deployed website with Lighthouse and got the following results:
   <img src="https://github.com/Krnsand/rock-paper-scissors-lizard-spock/blob/main/assets/images/readme_images/lighthouse.png">
   </details>
 
-In my last project my "Performance score" was not very good due to the image sizes I was using. I kept that in mind this time around and comressed the images I used, specifically the background image.
+In my last project my "Performance score" was not very good due to the image sizes I was using I believe. I kept that in mind this time around and comressed the images I used, specifically the background image.
 
 ### Unfixed Bugs
 
@@ -144,7 +145,7 @@ In my last project my "Performance score" was not very good due to the image siz
 
 - I used code snippets from the Rock, Paper, Scissors project in the "Portfolio Project Scope" video on: 
    - the buttons in the index.html
-   - the beginning of my script.js, see comment
+   - the beginning of my script.js, see comment in code
 
 - The concept of the game is from The Big Bang Theory (Tv-show). I got the "start image" and the rules from this website: 
 
@@ -152,7 +153,7 @@ In my last project my "Performance score" was not very good due to the image siz
 
 
 - I used [Font Awesome](https://fontawesome.com/) for the arrows that points down at the buttons
-- I used [Geeks for Geeks](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/?tab=article) to get the "moves left" function idea and to get an understanding of what the code for the project could look like. I did not end up using any of the code.
+- I used [Geeks for Geeks](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/?tab=article) to get the "moves left" function idea and to get an understanding of what the code for the project could look like. I did not end up using any of the code though.
 - I used [Flexbox Froggy](https://flexboxfroggy.com/) to freshen up my understanding of flex
 - I used [Team Treehouse](https://teamtreehouse.com/community/why-does-jshint-give-me-these-warnings-about-es6) to silence all warnings about my js code in the first image of my js code testing area as the warnings were not about things being wrong with my code, but merely informing me that I am using the "new" JavaScript version.
  
@@ -171,7 +172,7 @@ In my last project my "Performance score" was not very good due to the image siz
 
 I would like to take the opportunity to thank:
 
-- My mentor André Aquilina for guidance and patience throughout the project, as well as help with the checkWinner function
+- My mentor André Aquilina for guidance and patience throughout the project, as well as help with writing the checkWinner function cleaner
 
 - My friend Viktor Hesselbom for taking the time to help me with parts of my project
 
